@@ -1,0 +1,9 @@
+syntax = "proto3";
+package jovezen.lightchain.lightchain;
+
+option go_package = "github.com/jovezen/lightchain/x/lightchain/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
